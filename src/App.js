@@ -3,9 +3,9 @@ import Stepper from "./components/Stepper";
 import StepperControl from "./components/StepperControl";
 import { UseContextProvider } from "./contexts/StepperContext";
 
-import Account from "./components/steps/Resources";
+import Resources from "./components/steps/Resources";
 import Details from "./components/steps/Details";
-import Payment from "./components/steps/Cost";
+import Cost from "./components/steps/Cost";
 import Final from "./components/steps/Final";
 
 function App() {
@@ -21,11 +21,11 @@ function App() {
   const displayStep = (step) => {
     switch (step) {
       case 1:
-        return <Account />;
+        return <Resources />;
       case 2:
         return <Details />;
       case 3:
-        return <Payment />;
+        return <Cost />;
       case 4:
         return <Final />;
       default:
@@ -41,7 +41,7 @@ function App() {
   };
 
   return (
-    <div className="mx-auto rounded-2xl bg-white pb-2 shadow-xl md:w-1/2">
+    <div className="my-20 mx-auto rounded-2xl card pb-1 bg-white shadow-xl border-solid border-2 border-blue-600 md:w-1/2">
       {/* Stepper */}
       <div className="horizontal container mt-5 ">
         <Stepper steps={steps} currentStep={currentStep} />

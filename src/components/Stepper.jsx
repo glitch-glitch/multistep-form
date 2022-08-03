@@ -75,7 +75,7 @@ const Stepper = ({ steps, currentStep }) => {
       >
         <div className="relative flex flex-col items-center text-teal-600">
           <div
-            className={`rounded-full transition duration-500 ease-in-out border-2 border-gray-300 h-12 w-12 flex items-center justify-center py-3  ${
+            className={`text-blue rounded-full transition duration-500 ease-in-out border-2 border-gray-300 h-12 w-12 flex items-center justify-center py-3  ${
               step.selected
                 ? "bg-blue-600 text-white font-bold border border-blue-600 "
                 : ""

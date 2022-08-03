@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  background: #333; /*#333 */
+  background: #e9f5f8 ;/*#333 */
 }
 
 * {
@@ -22,7 +22,6 @@ body {
   stroke-dashoffset: 166;
   stroke-width: 2;
   stroke-miterlimit: 10;
-  stroke: #4ade80;
   fill: none;
   animation: stroke 0.6s cubic-bezier(0.65, 0, 0.45, 1) forwards;
 }
@@ -67,6 +66,6 @@ body {
 
 @keyframes fill {
   100% {
-    box-shadow: inset 0px 0px 0px 30px #4ade80;
+    box-shadow: inset 0px 0px 0px 30px #0066ff;
   }
 }
