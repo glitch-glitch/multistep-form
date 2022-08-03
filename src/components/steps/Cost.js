@@ -1,12 +1,13 @@
 import { useStepperContext } from "../../contexts/StepperContext";
 
-export default function Cost () {
+export default function Cost() {
   const { userData, setUserData } = useStepperContext();
 
   const handleChange = (e) => {
     const { name, value } = e.target;
     setUserData({ ...userData, [name]: value });
   };
+  
   return (
     <div className="flex flex-col ">
       <div className="w-full mx-2 flex-1">

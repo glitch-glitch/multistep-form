@@ -3,8 +3,9 @@ export default function Final() {
     <div className="container md:mt-10">
       <div className="flex flex-col items-center ">
         <div className="wrapper">
-          <svg
-            className="checkmark"
+           <svg
+               d="M14.1 27.2l7.1 7.2 16.7-16.8"
+             className="checkmark"
             xmlns=""
             viewBox="0 0 52 52"
           >
@@ -18,9 +19,8 @@ export default function Final() {
             <path
               className="checkmark__check"
               fill="none"
-              d="M14.1 27.2l7.1 7.2 16.7-16.8"
-            />
-          </svg>
+             />
+           </svg>
         </div>
 
         <div className="mt-3 text-xl font-semibold uppercase text-blue-500">
